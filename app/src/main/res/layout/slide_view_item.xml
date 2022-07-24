@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:id="@+id/slide_oldToy"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:src="@drawable/old_toy" />
+
+    <TextView
+        android:id="@+id/old_toy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_oldToy"
+        android:layout_marginLeft="25dp"
+        android:text="Swap Your Old Toy"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/old_toy_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/old_toy_title"
+        android:layout_marginTop="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur \n adipiscing elit. Proin tinciduct nunc non \n orci feugiat ornare."
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
